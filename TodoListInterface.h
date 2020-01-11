@@ -22,4 +22,5 @@ class TodoListInterface {
   // Prints out all items of a todo list with a particular due date (specified by _duedate)
   virtual void printDaysTasks(string _date) = 0;
 };
+
 #endif
