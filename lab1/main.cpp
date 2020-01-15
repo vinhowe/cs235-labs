@@ -91,6 +91,9 @@ int main(int argc, char *argv[]) {
 
     std::string date = argv[2];
     todoList->printDaysTasks(date);
+  } else {
+    std::cout << "Not a valid argument" << std::endl << std::endl;
+    printHelpMessage();
   }
 
   // Make sure to free memory. Wouldn't have thought of this without looking at
