@@ -1,2 +1,4 @@
 todo
 todo.txt
+# Exclude everything I've marked as an example file
+*.ex
