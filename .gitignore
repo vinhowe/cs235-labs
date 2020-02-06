@@ -142,3 +142,13 @@ DerivedData/
 
 ## Gcc Patch
 /*.gcno
+
+## Files CMake keeps generating
+
+cs235_labs*
+
+## CLion makefile
+
+Makefile
+
+CMakeFiles/

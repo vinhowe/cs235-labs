@@ -50,7 +50,7 @@ void printCommandUsage(const std::string &programName,
 }
 
 int main(int argc, char *argv[]) {
-  auto *todoList = new TodoList();
+  TodoList *todoList = new TodoList();
 
   if (argc <= 1) {
     printHelpMessage();

@@ -15,16 +15,16 @@ std::string lowercaseString(const std::string &input) {
   return output;
 }
 
-TodoList::TodoList() { loadFromFile(); }
+TodoList::TodoList() { loadFromFile(TODO_FILE_NAME); }
 
 TodoList::~TodoList() {
-  writeToFile();
+  writeToFile(TODO_FILE_NAME);
   todoItems.clear();
 }
 
 void TodoList::add(const std::string &dueDate, const std::string &task) {
   todoItems.push_back(new TodoItem(dueDate, task));
-  writeToFile();
+  writeToFile(TODO_FILE_NAME);
 }
 
 int TodoList::remove(const std::string &task) {
@@ -32,7 +32,7 @@ int TodoList::remove(const std::string &task) {
     auto todoItem = todoItems.at(i);
     if (todoItem->getTask() == task) {
       todoItems.erase(todoItems.begin() + i);
-      writeToFile();
+      writeToFile(TODO_FILE_NAME);
       return 1;
     }
   }
@@ -60,9 +60,8 @@ void TodoList::printDaysTasks(const std::string &date) {
   std::cout << std::endl;
 }
 
-void TodoList::loadFromFile() {
-  std::ifstream todoFileIn;
-  todoFileIn.open(TODO_FILE_NAME);
+void TodoList::loadFromFile(std::string path) {
+  std::ifstream todoFileIn(path);
 
   if (todoFileIn.fail()) {
     std::cout << "\"todo.txt\" does not exist or is inaccessible. "
@@ -91,9 +90,8 @@ void TodoList::loadFromFile() {
   todoFileIn.close();
 }
 
-void TodoList::writeToFile() {
-  std::ofstream todoFileOut;
-  todoFileOut.open(TODO_FILE_NAME);
+void TodoList::writeToFile(std::string path) {
+  std::ofstream todoFileOut(TODO_FILE_NAME);
 
   for (auto &todoItem : todoItems) {
     todoFileOut << todoItem->getDueDate() << std::endl

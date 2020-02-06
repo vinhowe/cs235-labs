@@ -22,9 +22,9 @@ class TodoList : public TodoListInterface {
 
   void printDaysTasks(const std::string &date) override;
 
-  void loadFromFile();
+  void loadFromFile(std::string path);
 
-  void writeToFile();
+  void writeToFile(std::string path);
 
  private:
   std::vector<TodoItem*> todoItems;
