@@ -1,0 +1,3 @@
+[submodule "lab4/vin"]
+	path = lab4/vin
+	url = https://github.com/vinhowe/Lab4-Maze
