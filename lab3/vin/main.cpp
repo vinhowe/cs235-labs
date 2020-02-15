@@ -10,9 +10,7 @@
 #include <list>
 #include <map>
 #include <set>
-#include <sstream>
 #include <string>
-#include <utility>
 #include <vector>
 
 std::string txtFilename(const std::string& name) { return name + ".txt"; }
@@ -309,7 +307,7 @@ int main(int argc, char** argv) {
   }
 
   int wordCountToGenerate = 900;
-//  std::string initialWord = "Nephi";
+  //  std::string initialWord = "Nephi";
 
   std::vector<std::string> words = wordVectorFromTextFile(filename);
   writeWordsToSetFile(words, filename);
@@ -319,7 +317,7 @@ int main(int argc, char** argv) {
   writeWordsToWordMapFile(firstNextWords, filename);
 
   printDivider("SERMON GENERATED USING \"NEXT WORD\" MAP:");
-  printNextWordLoop(firstNextWords, wordCountToGenerate/*, initialWord*/);
+  printNextWordLoop(firstNextWords, wordCountToGenerate /*, initialWord*/);
   std::cout << std::endl;
 
   std::map<std::string, std::vector<std::string>> nextWords =
@@ -337,11 +335,11 @@ int main(int argc, char** argv) {
 
   printDivider(
       "SERMON GENERATED USING \"NEXT WORDS\" MAP WITH LAST WORD AS INPUT:");
-  printNextWordRandom(nextWords, wordCountToGenerate/*, initialWord*/);
+  printNextWordRandom(nextWords, wordCountToGenerate /*, initialWord*/);
   std::cout << std::endl;
 
   int stateSize = 2;
-//  std::list<std::string> initialWords = {"I", "Nephi"};
+  //  std::list<std::string> initialWords = {"I", "Nephi"};
 
   printDivider(
       "SERMON GENERATED USING \"NEXT WORDS\" MAP WITH LAST WORD AS INPUT WITH "
@@ -351,6 +349,6 @@ int main(int argc, char** argv) {
   std::map<std::list<std::string>, std::vector<std::string>>
       listStateNextWords = listStateNextWordMap(words, stateSize);
   printNextWordListStateRandom(listStateNextWords, wordCountToGenerate,
-                               stateSize/*, initialWords*/);
+                               stateSize /*, initialWords*/);
   std::cout << std::endl;
 }

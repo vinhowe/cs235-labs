@@ -1,0 +1,51 @@
+U.S. officials say Huawei Technologies Co. can covertly access mobile-phone networks around the world through “back doors” designed for use by law enforcement, as Washington tries to persuade allies to exclude the Chinese company from their networks.
+
+Intelligence shows Huawei has had this secret capability for more than a decade, U.S. officials said. Huawei rejected the allegations.
+
+The U.S. kept the intelligence highly classified until late last year, when American officials provided details to allies including the U.K. and Germany, according to officials from the three countries. That was a tactical turnabout by the U.S., which in the past had argued that it didn’t need to produce hard evidence of the threat it says Huawei poses to nations’ security. 
+
+U.S. officials say Huawei Technologies Co. can covertly access mobile-phone networks around the world through “back doors” designed for use by law enforcement, as Washington tries to persuade allies to exclude the Chinese company from their networks.
+
+Intelligence shows Huawei has had this secret capability for more than a decade, U.S. officials said. Huawei rejected the allegations.
+
+The U.S. kept the intelligence highly classified until late last year, when American officials provided details to allies including the U.K. and Germany, according to officials from the three countries. That was a tactical turnabout by the U.S., which in the past had argued that it didn’t need to produce hard evidence of the threat it says Huawei poses to nations’ security.
+
+U.S. officials say Huawei has built equipment that secretly preserves the manufacturer’s ability to access networks through these interfaces without the carriers’ knowledge. The officials didn’t provide details of where they believe Huawei is able access networks. Other manufacturers don’t have the same ability, they said.
+
+“We have evidence that Huawei has the capability secretly to access sensitive and personal information in systems it maintains and sells around the world,” said national security adviser Robert O’Brien.
+
+“Huawei does not disclose this covert access to its local customers, or the host nation national-security agencies,” another senior U.S. official said.
+
+U.S. officials declined to say whether the U.S. has observed Huawei using this access. U.S. officials also haven’t provided details about the alleged backdoor access, except to say they have been aware of it since observing it in 2009 in early 4G equipment.
+
+Last month, the U.K., despite heavy lobbying from the Trump administration, agreed to continue to allow Huawei gear in the noncore parts of its latest 5G network buildout. British officials said Tuesday that the information about Huawei presented to them by U.S. officials last month wasn’t new and had already been factored into their analysis of the possible threat from the Chinese telecom equipment.
+
+The U.S. has long said Huawei could be coerced by Beijing into using its equipment to spy on, or disrupt, foreign networks. Huawei has said it has never spied on behalf of any country and would refuse any request to spy for Beijing.
+
+Huawei “has never and will never do anything that would compromise or endanger the security of networks and data of its clients,” the company said. “We emphatically reject these latest allegations. Again, groundless accusations are being repeated without providing any kind of concrete evidence.”
+
+A senior Huawei official dismissed the suggestion that Huawei could access the interface in the way U.S. officials described. “The use of the lawful interception interface is strictly regulated and can only be accessed by certified personnel of the network operators. No Huawei employee is allowed to access the network without an explicit approval from the network operator,” the official said.
+
+Network access without operator permission “is extremely implausible and would be discovered immediately,” the official said.
+
+Washington has been sharing the intelligence with allies for months, and declassified part of it last week to allow for wider distribution, according to U.S. officials. It hasn’t yet been publicly disclosed or reported.
+
+Matthew Pottinger, a U.S. deputy national security adviser, traveled to Berlin in late December to share the intelligence with senior officials in Chancellor Angela Merkel’s government, according to U.S. and German officials.
+
+Foreign capitals have had to weigh Huawei’s alleged threat to national security against what many carrier executives say is its high-quality gear and competitive pricing.
+
+Germany’s legislature is set to vote in the coming weeks on a bill that, if adopted, would allow Huawei full access to its 5G market if it provides security guarantees. Germany and many other countries are just now starting to build these next-generation mobile networks. All three of Germany’s biggest network operators use Huawei gear.
+
+Deutsche Telekom AG , Germany’s largest carrier, said it wasn’t worried about its own network in Germany. The company said its legal-intercept management system was built by a German company. That would prevent Huawei from being able to get access, it said.
+
+Some German officials came away from the briefing by Mr. Pottinger convinced by the U.S. intelligence, according to a senior official familiar with the meeting. A confidential memo written by the German Foreign Office and seen by The Wall Street Journal states that Mr. Pottinger provided “smoking gun” evidence that Huawei equipment posed a spying risk. Mr. Pottinger didn’t respond to requests for comment.
+
+A spokesman for London-based Vodafone Group PLC, one of the world’s largest telecom providers by subscribers, said there was no indication that any of its equipment vendors had unauthorized access to its global networks. Only company employees with security clearance could link into the lawful interception system, the spokesman said.
+
+Curtis W. Dukes, a former senior National Security Agency official turned cybersecurity consultant, said it was possible for a vendor to get access through the lawful-interception interface, but said he wasn’t aware of any instance of that happening.
+
+In most Western countries, the interface—the modern version of the old phone wiretap—allows law-enforcement agencies to access private electronic communications between individuals, subject to some restrictions, such as for example a warrant or court order.
+
+All infrastructure vendors in Europe must provide lawful-interception capability in their systems. These are a mix of physical components that are added to mobile radio towers, software, and encryption to ensure the information can only be accessed by authorized personnel.
+
+Law-enforcement agencies typically use these interfaces themselves, though in most cases and jurisdictions they must notify the network operators or request access from them—and it would be illegal for the equipment vendors to use the interface themselves without authorization.
