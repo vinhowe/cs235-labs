@@ -25,3 +25,9 @@ file(COPY ${lab4_text} DESTINATION
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/lab4/vin/Mazes DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(cs235_labs_lab4 lab4/vin/main.cpp lab4/vin/PathfinderInterface.h lab4/vin/Pathfinder.h lab4/vin/Pathfinder.cpp)
+
+file(GLOB lab5_text ${CMAKE_CURRENT_SOURCE_DIR}/lab5/vin/*.txt)
+file(COPY ${lab5_text} DESTINATION
+        ${CMAKE_CURRENT_BINARY_DIR})
+
+add_executable(cs235_labs_lab5 lab5/vin/main.cpp lab5/vin/QSInterface.h lab5/vin/QS.h lab5/vin/QS.cpp)
