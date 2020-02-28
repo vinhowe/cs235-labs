@@ -4,3 +4,9 @@
 [submodule "lab5/vin"]
 	path = lab5/vin
 	url = https://github.com/vinhowe/Lab5-Quicksort
+[submodule "lab4/andres"]
+	path = lab4/andres
+	url = git@github.com:jahsud/Lab4-Maze.git
+[submodule "lab6/vin"]
+	path = lab6/vin
+	url = https://github.com/BYUCS235/Lab6-LinkedList.git
