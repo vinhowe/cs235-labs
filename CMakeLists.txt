@@ -31,3 +31,10 @@ file(COPY ${lab5_text} DESTINATION
         ${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(cs235_labs_lab5 lab5/vin/main.cpp lab5/vin/QSInterface.h lab5/vin/QS.h lab5/vin/QS.cpp)
+
+# Pretty sure that this copy operation overwrites all of the past operations
+file(GLOB lab6_text ${CMAKE_CURRENT_SOURCE_DIR}/lab6/vin/*.txt)
+file(COPY ${lab6_text} DESTINATION
+        ${CMAKE_CURRENT_BINARY_DIR})
+
+add_executable(cs235_labs_lab6 lab6/vin/main.cpp lab6/vin/LinkedListInterface.h lab6/vin/LinkedList.h)
