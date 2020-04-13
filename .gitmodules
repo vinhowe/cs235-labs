@@ -13,6 +13,3 @@
 [submodule "lab7/Lab7-BST"]
 	path = lab7/Lab7-BST
 	url = git@github.com:vinhowe/Lab7-BST.git
-[submodule "lab8/vin"]
-	path = lab8/vin
-	url = git@github.com:vinhowe/Lab8-AVL.git
